@@ -7,19 +7,20 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="style.css">
     <title>@KatherinyVentura</title>
+    <meta name="description" content="Modelo de instagram">
 </head>
 <body>
     <header>
         <div class="menu">
-            <img src="images/seta.png" alt="">
-            <div><strong>Katherinyventura</strong> </div>
-            <img src="images/sino.png" alt="sino">
-            <img onclick="abrirMenu()" style="margin-right: 10px;" src="images/pontinhos.png" alt="pontos">
+            <img src="images/photos/icons/seta.png" alt="">
+            <h1>Katherinyventura</h1>
+            <img src="images/photos/icons/sino.png" alt="sino">
+            <img onclick="openMenu()" src="images/photos/icons/pontinhos.png" alt="pontos">
         </div>
     </header>
     <main>
         <div class="statics container">
-            <div class="img-she"><img src="images/5.png" alt="Ketlin"></div>
+            <div class="img-she"><a href="https://www.instagram.com/katherinyventura/" target="_blank"><img src="images/photos/5.png" alt="Ketlin"></a> </div>
             <div class="info">
                 <div><strong>38</strong></div>
                 <div>Publicaç...</div>
@@ -40,9 +41,9 @@
             Seguido(a) por <strong>nadia.alexandrino,<br/>catiana.lopes.depilacao e outras 13 pessoas</strong>
         </div>
         <div class="box container">
-            <button onclick="seguir()">Seguindo</button>
+            <button onclick="follow()">Seguindo</button>
             <button>Mensagem</button>
-            <button onclick="amigos()"><img src="images/dir.png" alt=""></button>
+            <button onclick="friends()"><img src="images/photos/icons/arrow.png" alt=""></button>
         </div>
         <div class="friends container">
             <div class="text">
@@ -52,52 +53,52 @@
             <div class="slider-friends">
                 <div class="slider-friends-move">
                     <div class="slide-model">
-                        <img src="images/5.png" alt="amigos">
+                        <img src="images/photos/5.png" alt="amigos">
                         <div><strong>brunoventura</strong><br/>Bruno Ventura</div>
                         <button>Seguir</button>
                     </div>
                     <div class="slide-model">
-                        <img src="images/5.png" alt="amigos">
+                        <img src="images/photos/5.png" alt="amigos">
                         <div><strong>brunoventura</strong><br/>Bruno Ventura</div>
                         <button>Seguir</button>
                     </div>
                     <div class="slide-model">
-                        <img src="images/5.png" alt="amigos">
+                        <img src="images/photos/5.png" alt="amigos">
                         <div><strong>brunoventura</strong><br/>Bruno Ventura</div>
                         <button>Seguir</button>
                     </div>
                     <div class="slide-model">
-                        <img src="images/5.png" alt="amigos">
+                        <img src="images/photos/5.png" alt="amigos">
                         <div><strong>brunoventura</strong><br/>Bruno Ventura</div>
                         <button>Seguir</button>
                     </div>
                     <div class="slide-model">
-                        <img src="images/5.png" alt="amigos">
+                        <img src="images/photos/5.png" alt="amigos">
                         <div><strong>brunoventura</strong><br/>Bruno Ventura</div>
                         <button>Seguir</button>
                     </div>
                     <div class="slide-model">
-                        <img src="images/5.png" alt="amigos">
+                        <img src="images/photos/5.png" alt="amigos">
                         <div><strong>brunoventura</strong><br/>Bruno Ventura</div>
                         <button>Seguir</button>
                     </div>
                     <div class="slide-model">
-                        <img src="images/5.png" alt="amigos">
+                        <img src="images/photos/5.png" alt="amigos">
                         <div><strong>brunoventura</strong><br/>Bruno Ventura</div>
                         <button>Seguir</button>
                     </div>
                     <div class="slide-model">
-                        <img src="images/5.png" alt="amigos">
+                        <img src="images/photos/5.png" alt="amigos">
                         <div><strong>brunoventura</strong><br/>Bruno Ventura</div>
                         <button>Seguir</button>
                     </div>
                     <div class="slide-model">
-                        <img src="images/5.png" alt="amigos">
+                        <img src="images/photos/5.png" alt="amigos">
                         <div><strong>brunoventura</strong><br/>Bruno Ventura</div>
                         <button>Seguir</button>
                     </div>
                     <div class="slide-model">
-                        <img src="images/5.png" alt="amigos">
+                        <img src="images/photos/5.png" alt="amigos">
                         <div><strong>brunoventura</strong><br/>Bruno Ventura</div>
                         <button>Seguir</button>
                     </div>
@@ -105,89 +106,49 @@
             </div>
         </div>
         <div class="boll container">
-            <img src="images/3passos.png" alt="post">
-            <div>O que é?</div>
+            <div><img src="images/photos/16.png" alt="post">O que é?</div>
         </div>
         <div class="bar container">
-            <img onclick="first()" src="images/grade.png" alt="q">
-            <img onclick="second()" src="images/play.png" alt="play">
-            <img onclick="thirth()" src="images/cast.png" alt="foto">
+            <img onclick="move('0vw')" src="images/photos/icons/bloco.png" alt="q">
+            <img onclick="move('-100vw')" src="images/photos/icons/play.png" alt="play">
+            <img onclick="move('-200vw')" src="images/photos/icons/antena.png" alt="foto">
         </div>
+        
         <div class="sliders">
+            <div class="modal" onclick="closeModal()">
+                <img src="" alt="">
+            </div>
+            <div class="modalp" onclick="closeModal()">
+                <video autoplay width="320px" height="auto"></video>
+            </div>
         <div class="slider-move">
-            <div class="posts">
-                <img src="images/1.jpg" alt="kath">
-                <img src="images/1.png" alt="kath">
-                <img src="images/4.jpg" alt="kath">
-                <img src="images/4.png" alt="kath">
-                <img src="images/5.png" alt="kath">
-                <img src="images/7.png" alt="kath">
-                <img src="images/Autocuidado (1).png" alt="kath">
-                <img src="images/Autocuidado (2).png" alt="kath">
-                <img src="images/Autocuidado (3).png" alt="kath">
-                <img src="images/Bazar das amigas.png" alt="kath">
-                <img src="images/comprar1.png" alt="kath">
-                <img src="images/dica1.png" alt="kath">
-                <img src="images/falando.png" alt="kath">
-                <img src="images/mereço1.png" alt="kath">
-                <img src="images/mereço6.png" alt="kath">
-                <img src="images/NAO1.png" alt="kath">
-                <img src="images/não.png" alt="kath">
-                <img src="images/O SEGREDO de se vestir bem é o mesmo que fazer qualquer outra coisa. É ter CONHECIMENTO daquilo que se está fazendo e por que está fazendo. -Marlene Tarbil-.png" alt="kath">
-                <img src="images/on1.png" alt="kath">
-                <img src="images/perguntas1.png" alt="kath">
-                <img src="images/pizza.png" alt="kath">
-                <img src="images/quem é.png" alt="kath">
-                <img src="images/r1.png" alt="kath">
-                <img src="images/roupa1.png" alt="kath">
-                <img src="images/stacy2.png" alt="kath">
-                <img src="images/voce1.png" alt="kath">
-            </div>
-            <div class="rells">
-                <img src="images/1.jpg" alt="kath">
-                <img src="images/1.png" alt="kath">
-                <img src="images/4.jpg" alt="kath">
-                <img src="images/4.png" alt="kath">
-                <img src="images/5.png" alt="kath">
-                <img src="images/7.png" alt="kath">
-                <img src="images/Autocuidado (1).png" alt="kath">
-                <img src="images/Autocuidado (2).png" alt="kath">
-                <img src="images/Autocuidado (3).png" alt="kath">
-                <img src="images/Bazar das amigas.png" alt="kath">
-                <img src="images/comprar1.png" alt="kath">
-                <img src="images/dica1.png" alt="kath">
-                
-            </div>
+            <div class="posts"></div>
+            <div class="rells"></div>
             <div class="not">
-                <img src="images/cast.png" alt="circle">
-                <h2>Ainda não há<br/>nenhuma publicação</h2>
-            </div>
+                <div>
+                    <img src="images/photos/icons/star.png" alt="circle">
+                    <h2>Ainda não há<br/>nenhuma publicação</h2></div>
+                </div>
         </div>
         </div>
     </main>
     <footer>
         <div class="static">
-            <img src="images/home.png" alt="home">
-            <img src="images/loupe.png" alt="lupa">
-            <img src="images/play.png" alt="play">
-            <img src="images/sacola.png" alt="store">
-            <img src="images/eu.jpg" alt="me">
+            <img src="images/photos/icons/home.png" alt="home">
+            <img src="images/photos/icons/loupe.png" alt="lupa">
+            <img src="images/photos/icons/play.png" alt="play">
+            <img src="images/photos/icons/sacola.png" alt="store">
+            <img src="images/photos/5.png" alt="me">
         </div>
         <div class="up-box">
-            <div class="traço"></div>
-            <p>katherinyventura</p>
-            <hr>
-            <div class="text-img">
-                <div>Adicionar á lista Amigos Próximos</div>
-                <img class="first" src="images/star.png" alt="star">
-            </div>
-            <div class="text-img"><div>Silenciar </div><img src="images/dir.png" alt="dir"></div>
-            <div class="text-img"><div>Restringir </div><img src="images/dir.png" alt="dir"></div>
-            <div class="text-img-1">Deixar de seguir</div>
+            <p onclick="follow()">katheriny Ventura</p>
+            <div class="text-img"><div>Adicionar á lista Amigos Próximos</div><img class="first" src="images/photos/icons/star.png" alt="star"></div>
+            <div class="text-img"><div>Silenciar </div><img src="images/photos/icons/star.png" alt="dir"></div>
+            <div class="text-img"><div>Restringir </div><img src="images/photos/icons/star.png" alt="dir"></div>
+            <div class="text-img">Deixar de seguir</div>
         </div>
-        <div class="up-box-1">
-            <div class="traço1"><hr></div>
-           <p> Denunciar<br/><br/>
+        <div onclick="openMenu()" class="up-box-1">
+           <p >Denunciar<br/><br/>
             Bloquear<br/><br/>
             Restringir<br/><br/>
             Ocultar seu story<br/><br/>
