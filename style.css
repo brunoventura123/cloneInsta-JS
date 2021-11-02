@@ -92,7 +92,6 @@ main{
     width: 100%;
     overflow: hidden;
 }
-
 .slide-model{
     display: flex;
     flex-direction: column;
